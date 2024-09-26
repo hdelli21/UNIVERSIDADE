@@ -29,7 +29,7 @@ Dar exemplos
 
 Explicação de como deve ser utilizado o projeto
 
-A classe UNIVERSIDADE calcula a nota final com base no número de avaliações: média simples para 2 notas, média ponderada para 3, e uma fórmula específica para 4 notas. Para disciplinas presenciais, além da nota, é considerada a frequência mínima de 75% para aprovação. Já em disciplinas EAD, a aprovação depende apenas da nota. No fim, o sistema exibe nome, RA, nota final e se o aluno foi aprovado ou reprovado.
+A classe UNIVERSIDADE representa um aluno, contendo informações como nome, RA, número de faltas e se a disciplina é EAD. O aluno pode calcular sua nota final com base em notas recebidas, utilizando média aritmética ou uma média ponderada específica. A aprovação é verificada de acordo com a nota final e as faltas: se for EAD, a aprovação depende apenas da nota; se for presencial, o aluno deve ter menos de 25% de faltas e uma nota igual ou superior a 5. A classe também inclui métodos para acessar e modificar os atributos do aluno.
 
 🛠 Construído com
 
